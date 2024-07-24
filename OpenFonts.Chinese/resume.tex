@@ -46,7 +46,7 @@
 
 
 \documentclass[]{deedy-resume-openfont}
-\usepackage{fancyhdr}
+\usepackage{fancyhdr,graphicx}
     
 \pagestyle{fancy}
 \fancyhf{}
@@ -74,211 +74,221 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.25\textwidth} 
+\begin{minipage}[t]{0.25\textwidth}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \vspace*{1ex}
+    {\includegraphics[width=.75\linewidth]{profile.jpg}}
+    \sectionsep
 
-\section{教育经历} 
-\sectionsep
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     EDUCATION
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{中国科学技术大学}
-\descript{硕博连读，流体力学}
-\descript{导师 陆夕云院士}
-\location{2021.09至今}
-\sectionsep
+    \section{教育经历}
+    \sectionsep
 
-\subsection{南京航空航天大学}
-\descript{学士学位，飞行器设计与工程}
-\descript{工科研究试验班}
-\location{2017.09-2021.06}
-\sectionsep
+    \subsection{\bf 中国科学技术大学}
+    \descript{\bf 硕博连读，流体力学}
+    \descript{\bf 导师 陆夕云院士}
+    \location{2021.09至今}
+    \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \subsection{南京航空航天大学}
+    \descript{学士学位，飞行器设计与工程}
+    \descript{工科研究试验班}
+    \location{2017.09-2021.06}
+    \sectionsep
 
-\section{链接}
-\sectionsep
-Zhihu://  \href{https://www.zhihu.com/people/lzmo}{\bf ANFLK} \\
-(总计 4.6k+ 收藏，3.6k+ 关注者) \\    
-ResearchGate:// \href{https://www.researchgate.net/profile/Zimo_Liao}{\bf ZimoLiao} \\
-\sectionsep
+    \subsection{四川省成都市第七中学}
+    \location{2014.09-2017.06}
+    \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     COURSEWORK
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \section{修读课程}
-% \subsection{Graduate}
-% Advanced Machine Learning \\
-% Open Source Software Engineering \\
-% Advanced Interactive Graphics \\
-% Compilers + Practicum \\
-% Cloud Computing \\
-% Evolutionary Computation \\
-% Defending Computer Networks \\
-% Machine Learning \\
-% \sectionsep
+    \section{修读课程}
+    \sectionsep    % \subsection{研究生}
+    高等应用数学（94） \\
+    计算流体力学（98） \\
+    流动稳定性和湍流（99） \\
+    GPU并行计算（99） \\
+    \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     SKILLS
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{技能}
-\sectionsep
-\subsection{编程}
-% \location{超过 5000 行}
-C/C++ \textbullet{} Fortran \\
-CUDA C \textbullet{} CUDA Fortran \\
-MATLAB \textbullet{} Python \textbullet{} \LaTeX \\
-\sectionsep
+    \section{技能}
+    \sectionsep
+    \subsection{专业}
+    % \location{超过 5000 行}
+    湍流\textbullet{}多相流\textbullet{}计算流体力学 \\
+    数据驱动流体力学\textbullet{}机器学习\\
+    \sectionsep
+    \subsection{编程}
+    % \location{超过 5000 行}
+    C/C++\textbullet{}Fortran\textbullet{}MPI \\
+    CUDA C\textbullet{}CUDA Fortran \\
+    MATLAB\textbullet{}Python\textbullet{}\LaTeX \\
+    \sectionsep
 
-% \subsection{云计算}
-% \location{一般}
-% Docker \textbullet{} Kubernetes \\
-% \location{了解}
-% Swarm \textbullet{} Moby \textbullet{} Linuxkit \textbullet{} HyperContainers \textbullet{} ClearContainers \textbullet{} Xen \textbullet{} KVM \textbullet{} Unikernel \\
-% \sectionsep
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     LINKS
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \subsection{DevOps}
-% \location{一般}
-% 微服务 \textbullet{} Jenkins \textbullet{} Travis CI
+    \section{链接}
+    \sectionsep
+    Zhihu://  \href{https://www.zhihu.com/people/lzmo}{\bf ANFLK} \\
+    (4.6k+ 收藏，3.6k+ 关注者) \\
+    ResearchGate:// \href{https://www.researchgate.net/profile/Zimo_Liao}{\bf ZimoLiao} \\
+    \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN TWO
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %
+    %     COLUMN TWO
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage} 
+\end{minipage}
 \hfill
-\begin{minipage}[t]{0.73\textwidth} 
+\begin{minipage}[t]{0.73\textwidth}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     RESEARCH
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \section{实习经历}
-% \sectionsep
-% \runsubsection{谷歌编程之夏}
-% \descript{学生参与者}
-% \location{2017.05 - 2017.09 | 远程}
-% \vspace{\topsep}
-% \begin{tightemize}
-%     \item 共有 20651 个注册学生，其中 1318 个申请被谷歌接收，\textbf{接收率 6\%}
-%     \item 为 Processing 基金会实现了对 Processing 的 R 语言支持
-%     \item 与社区紧密合作，实现对 Processing 库的支持和对 R 包的支持
-%     \item 所做项目 \href{https://github.com/gaocegege/Processing.R}{\bf Processing.R} 在 GitHub 上获得 \textbf{70 stars}，成为本次编程之夏 star 最多的项目
-% \end{tightemize}
-% \sectionsep
+    \section{一作论文与专利}
+    \sectionsep
+    \runsubsection{\href{https://doi.org/10.1017/jfm.2023.435}{\bf Reduced-order variational mode decomposition to reveal transient and non-stationary dynamics in fluid flows}}
 
-% \runsubsection{摩根士丹利}
-% \descript{CIP 项目实习生}
-% \location{2017.02-2017.08 | 上海}
-% \begin{tightemize}
-% \item 优化开源容器调度管理框架 treadmill 的调度器
-% \item 实现与 Kubernetes 类似的调度模型，同时保留自身的树形结构
-% \end{tightemize}
-% \sectionsep
+    \descript{Journal of Fluid Mechanics，流体力学顶刊}
+    \location{2023.06}
+    \vspace*{1ex}
+    \begin{itemize}\itemsep1pt \parskip0pt \parsep0pt
+        \item 基于信号处理领域中的变分模态分解，提出了降阶变分模态分解（RVMD）方法
+        \item RVMD可以{\bf 自适应地从高维、瞬态/非平稳的时空数据中提取低维动力学过程}
+        \item 该方法{\bf 有望进一步应用于其他复杂系统、神经动力学、金融时间序列分析等领域}
+        \item 其MATLAB实现已在Github开源：\href{https://github.com/ZimoLiao/rvmd}{https://github.com/ZimoLiao/rvmd}
+    \end{itemize}
+    \sectionsep
 
-% \runsubsection{上海触宝信息技术有限公司}
-% \descript{数据工程师（实习）}
-% \location{2015.09-2015.09 | 上海}
-% \begin{tightemize}
-% \item 移植爬虫代码到新的平台，优化重写部分过期的爬虫
-% \end{tightemize}
-% \sectionsep
+    \runsubsection{\href{https://doi.org/10.1016/j.ijmultiphaseflow.2024.104840}{\bf GPU acceleration of four-way coupled PP-DNS for compressible particle-laden wall turbulence}}
 
-% \runsubsection{蚂蚁金服（杭州）网络技术有限公司}
-% \descript{Java 研发工程师（实习）}
-% \location{2015.07-2015.09 | 杭州}
-% \begin{tightemize}
-% \item 在支付宝国际事业团队从事海外直购业务开发
-% \item 实现部分包裹清关的逻辑和后台管理的逻辑
-% \end{tightemize}
-% \sectionsep
+    \descript{International Journal of Multiphase Flow，多相流顶刊}
+    \location{2024.06}
+    \vspace*{-1ex}
+    \begin{itemize}\itemsep1pt \parskip0pt \parsep0pt
+        \item 提出了包括{\bf 数据结构、MPI通讯策略的气粒两相流计算完整算法流程}
+        \item 编程实现了大规模、四向耦合气粒两相湍流的GPU加速数值模拟
+        \item 可以{\bf 在8张NVIDIA A100卡上完成10的9次方量级颗粒/网格数的高效计算}
+    \end{itemize}
+    \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{论文与专利}
-\sectionsep
-\runsubsection{\href{https://doi.org/10.1017/jfm.2023.435}{\bf Reduced-order variational mode decomposition to reveal transient and non-stationary dynamics in fluid flows}}
-\descript{Journal of Fluid Mechanics，流体力学顶刊，一作}
-\location{2023.06}
+    \runsubsection{{\bf 一种可压缩气粒两相壁湍流的GPU/CPU异构并行计算方法}}
 
-\begin{tightemize}
-    \item 基于 Docker 的持续集成与持续部署系统
-    \item 本科毕业设计，与才云科技合作开发，在 GitHub 上获得 \textbf{440 stars}
-    \item 调研其他开源实现，确定工作流程和架构选型，实现 YAML parser 和 Docker 的运行时集成
+    \descript{发明专利，202311211287.8}
+    \location{2023.12}
+    \sectionsep
+
+    
+    \runsubsection{{\bf The transport map of particle-laden channel flow}}
+
+    \descript{Journal of Fluid Mechanics，在投}
+    \location{2024.07}
+    \vspace*{-1ex}
+    \begin{itemize}\itemsep1pt \parskip0pt \parsep0pt
+        \item 基于湍流统计理论和气体动理论给出了气粒两相流中质量/动量/能量的完整输运图谱
+        \item 结合高保真数值模拟结果揭示了惯性颗粒对壁湍流的调制规律与机理
+    \end{itemize}
+
+    % \runsubsection{{ Temperature and heat flux bounds of convection driven by non-uniform internal heating}}
+
+    % \descript{Acta Mechanica Sinica，三作}
+    % \sectionsep
+
+    % \runsubsection{{ Effects of inflow Mach numbers on shock train dynamics and turbulence features in a backpressured supersonic channel flow}}
+
+    % \descript{Physics of Fluids，三作}
+    % \sectionsep
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     OPEN SOURCE
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \section{项目经历}
+    \begin{tabular}{ll}
+        {\color{date}\bf 参与项目名称/类型}                     & {\color{date}\bf 个人贡献}  \vspace*{1ex}\\
+        {\bf 极端流动的多过程问题研究}                     & 高速气粒两相壁湍流模拟分析  \\
+        {\color{subheadings} 国家自然科学基金基础科学中心项目} & \vspace*{1ex}  \\
+        {\bf 高超声速飞行器转捩/湍流结构与降热减阻集成研究}          & 激波串非定常特性分析     \\
+        {\color{subheadings} 国家自然科学基金重大研究计划集成项目} & \vspace*{1ex}  \\
+        {\bf 固体火箭发动机***数值模拟研究}                 & 喷管气粒两相流模拟分析与建模 \\
+        {\color{subheadings} ***基础研究项目群}       & \vspace*{1ex}  \\
+    \end{tabular}
+    \sectionsep
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     AWARDS
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \section{奖项与荣誉}
+    \begin{tabular}{ll}
+        \bf 特等奖（第一名） & \bf 第十二届全国周培源大学生力学竞赛（个人赛）        \\
+        \bf 特等奖      & \bf 第十二届全国周培源大学生力学竞赛“理论设计与操作”团体赛 \\
+        奖学金      & 本科生国家奖学金                     \\
+    \end{tabular}
+    \sectionsep
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     EXPERIENCE
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \section{其他}
+    % \sectionsep
+    \begin{tightemize}
+        \item {\bf 基于有限差分方法、格子玻尔兹曼方法，采用C/C++，Fortran，CUDA等语言独立\\编写过多套CPU/GPU流体力学求解器}
+        \item 中学至本科竞赛经历丰富，{\bf 具有很强的学习、解决问题的能力，擅长交叉学科研究}
+        \item 本科期间担任校普通生排球队主力二传，身体素质不错
     \end{tightemize}
-\sectionsep
+    \sectionsep
 
-\runsubsection{\href{https://doi.org/10.1016/j.ijmultiphaseflow.2024.104840}{\bf GPU acceleration of four-way coupled PP-DNS for compressible particle-laden wall turbulence}}
-\descript{International Journal of Multiphase Flow，多相流顶刊，一作}
-\location{2024.06}
+    % \runsubsection{摩根士丹利}
+    % \descript{CIP 项目实习生}
+    % \location{2017.02-2017.08 | 上海}
+    % \begin{tightemize}
+    % \item 优化开源容器调度管理框架 treadmill 的调度器
+    % \item 实现与 Kubernetes 类似的调度模型，同时保留自身的树形结构
+    % \end{tightemize}
+    % \sectionsep
 
-\begin{tightemize}
-    \item 使用 scala 实现的爬虫框架，灵感来自 scrapy
-    \item 在 GitHub 上获得 \textbf{70 stars}
-    \item 底层使用 Actor 模型取代 Python 中的异步模型
-    \end{tightemize}
-\sectionsep
+    % \runsubsection{上海触宝信息技术有限公司}
+    % \descript{数据工程师（实习）}
+    % \location{2015.09-2015.09 | 上海}
+    % \begin{tightemize}
+    % \item 移植爬虫代码到新的平台，优化重写部分过期的爬虫
+    % \end{tightemize}
+    % \sectionsep
 
-% TODO: 链接
-\runsubsection{{\bf 一种可压缩气粒两相壁湍流的GPU/CPU异构并行计算方法}}
-\descript{专利，一作}
-\location{2023.12}
-\sectionsep
+    % \runsubsection{蚂蚁金服（杭州）网络技术有限公司}
+    % \descript{Java 研发工程师（实习）}
+    % \location{2015.07-2015.09 | 杭州}
+    % \begin{tightemize}
+    % \item 在支付宝国际事业团队从事海外直购业务开发
+    % \item 实现部分包裹清关的逻辑和后台管理的逻辑
+    % \end{tightemize}
+    % \sectionsep
 
-\runsubsection{\href{https://doi.org/10.1016/j.ijmultiphaseflow.2024.104840}{\bf Temperature and heat flux bounds of convection driven by non-uniform internal heating}}
-\descript{Acta Mechanica Sinica，三作}
-\location{2024.06}
-\sectionsep
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     PUBLICATIONS
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\runsubsection{\href{https://doi.org/10.1016/j.ijmultiphaseflow.2024.104840}{\bf Effects of inflow Mach numbers on shock train dynamics and turbulence features in a backpressured supersonic channel flow}}
-\descript{Physics of Fluids，三作}
-\location{2024.06}
-\sectionsep
+    % \section{Publications} 
+    % \renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+    % \bibliographystyle{abbrv}
+    % \bibliography{publications}
+    % \nocite{*}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     OPEN SOURCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{项目经历}
-\begin{tabular}{ll}
-\href{https://github.com/moby/moby/commits?author=gaocegege}{\bf moby/moby} & 实现 docker service ps -q 参数，与 swarmkit 更好集成 \\
-\href{https://github.com/opencontainers/runc/commits?author=gaocegege}{\bf opencontainers/runc} & 为了修复 \href{https://github.com/moby/moby/issues/27484}{moby/moby\#27484} 对上游进行的修改 \\
-\href{https://github.com/pingcap/tidb/commits?author=gaocegege}{\bf pingcap/tidb} & 在 travis 里引入了覆盖率测试; 实现 truncate 函数 \\
-\href{https://github.com/coala/coala-vs-code/commits/master?author=gaocegege}{\bf coala/coala-vs-code} & Visual Studio Code 上的插件，项目 maintainer \\
-\href{https://github.com/weijianwen/SJTUThesis/commits?author=gaocegege}{\bf weijianwen/SJTUThesis} & 为学士论文模板添加英文大摘要； 替换版权字体 \\
-\end{tabular}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{奖项与荣誉} 
-\begin{tabular}{ll}
-特等奖（第一名） & 第十二届全国周培源大学生力学竞赛（个人赛）\\
-特等奖 & 第十二届全国周培源大学生力学竞赛“理论设计与操作”团体赛\\
-奖学金 & 本科生国家奖学金 \\
-\end{tabular}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \section{Publications} 
-% \renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-% \bibliographystyle{abbrv}
-% \bibliography{publications}
-% \nocite{*}
-
-\end{minipage} 
+\end{minipage}
 \end{document}  \documentclass[]{article}
